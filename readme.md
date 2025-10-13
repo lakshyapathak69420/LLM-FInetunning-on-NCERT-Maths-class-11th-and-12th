@@ -50,7 +50,7 @@ This section outlines the steps to reproduce the finetuning process using the mo
 #### **1. Setup Environment**
 Clone the repository and install the necessary dependencies:
 
-        ```bash
+        
         git clone https://github.com/lakshyapathak69420/LLM-FInetunning-on-NCERT-Maths-class-11th-and-12th.git
 
         cd LLM-FInetunning-on-NCERT-Maths-class-11th-and-12th
