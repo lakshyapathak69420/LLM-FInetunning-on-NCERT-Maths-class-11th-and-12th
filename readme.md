@@ -21,13 +21,13 @@ The foundation of this project is the **Gemma 2B** model, a **Causal Language Mo
 The following plots illustrate the model's performance during the 3 epochs of LoRA finetuning. The training was performed using the PyTorch ecosystem within a Google Colab Free Tier environment.
 
 1. Standard Loss Curve
-![standard Loss curve image](image-1.png)
+![standard Loss curve image](std-loss-curve.png)
 The top curve, plotted using sns.lineplot(y=training_loss, x=number_iter), shows the model's Loss per iteration.
 
 Observation: The loss starts high (above 40) but demonstrates a steep, immediate drop within the first 50 iterations, confirming the model quickly learned the fundamental patterns of the new math dataset. The loss stabilizes rapidly, which is a key sign of effective LoRA adaptation.
 
 2. Log Loss Curve
-![Log Loss Curve image](image.png)
+![Log Loss Curve image](log-loss-curve.png)
 The bottom curve shows the training loss scaled logarithmically per iteration.
 
 Observation: The training loss quickly settles into a narrow, oscillating band centered around a low value (near 0.0 to 0.25 after iteration 100). This stable, low final loss indicates successful convergence and suggests the model is generating mathematically coherent and contextually relevant outputs on the finetuning data.
