@@ -58,7 +58,7 @@ Clone the repository and install the necessary dependencies:
 
 gh repo clone lakshyapathak69420/LLM-FInetunning-on-NCERT-Maths-class-11th-and-12th
 
-cd <YOUR_REPO_NAME>
+cd LLM-FInetunning-on-NCERT-Maths-class-11th-and-12th
 
 python3 -m venv .venv
 
