@@ -35,13 +35,13 @@ Observation: The training loss quickly settles into a narrow, oscillating band c
 ### **🛠️ Model and Technology Stack**
 
 
-**Base Model** : google/gemma-2b 
-**Finetuning Method** : LoRA (Low-Rank Adaptation)
-**LoRA Rank (r)** : 16
-**Target Modules** : q_proj, o_proj, k_proj, v_proj, gate_proj, up_proj, down_proj
-**Training Hardware** : Google Colab (Free Version) - GPU
-**Finetuning Library** : PEFT (Parameter-Efficient Finetuning)
-**Dataset** : Class 11th & 12th NCERT Mathematics Examples
+**Base Model** : google/gemma-2b <br>
+**Finetuning Method** : LoRA (Low-Rank Adaptation) <br>
+**LoRA Rank (r)** : 16 <br>
+**Target Modules** : q_proj, o_proj, k_proj, v_proj, gate_proj, up_proj, down_proj <br>
+**Training Hardware** : Google Colab (Free Version) - GPU <br>
+**Finetuning Library** : PEFT  (Parameter-Efficient Finetuning) <br>
+**Dataset** : Class 11th & 12th NCERT Mathematics Examples <br>
 
 ### **💻 How to Finetune Yourself**
 
