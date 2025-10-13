@@ -34,12 +34,19 @@ Observation: The training loss quickly settles into a narrow, oscillating band c
 
 🛠️ Model and Technology Stack
 Component	Detail
+
 Base Model	google/gemma-2b
+
 Finetuning Method	LoRA (Low-Rank Adaptation)
+
 LoRA Rank (r)	16
+
 Target Modules	q_proj, o_proj, k_proj, v_proj, gate_proj, up_proj, down_proj
+
 Training Hardware	Google Colab (Free Version) - GPU
+
 Finetuning Library	PEFT (Parameter-Efficient Finetuning)
+
 Dataset	Class 11th & 12th NCERT Mathematics Examples
 
 Export to Sheets
@@ -49,11 +56,16 @@ This section outlines the steps to reproduce the finetuning process using the mo
 1. Setup Environment
 Clone the repository and install the necessary dependencies:
 
-git clone <YOUR_REPO_URL>
+gh repo clone lakshyapathak69420/LLM-FInetunning-on-NCERT-Maths-class-11th-and-12th
+
 cd <YOUR_REPO_NAME>
+
 python3 -m venv .venv
+
 source .venv/bin/activate
+
 pip install -r requirements.txt
+
 # Ensure you have the required libraries, including torch and transformers with GPU support
 2. Prepare Data
 Ensure your tokenized training data is available in the root directory.
