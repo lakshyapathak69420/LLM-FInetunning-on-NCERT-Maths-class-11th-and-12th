@@ -6,7 +6,8 @@ This repository contains the code and configuration to finetune the **Qwen2.5-0.
 ## 📊 Training Results & Metrics
 
 The model showed significant convergence during the finetuning process. The drastic reduction in validation loss indicates that the model transitioned from general responses to highly specialized mathematical accuracy.
-NOTE: As for some reason the jupyter file is not opening in github here is the link to original colab file \n
+
+NOTE: As for some reason the jupyter file is not opening in github here is the link to original colab file.
 Link: https://colab.research.google.com/drive/1xCF9fCcP9cT1hw-peaTP-NlmiYiiTdmF?usp=sharing
 
 | Metric | Initial | Final | Improvement |
