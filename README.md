@@ -22,7 +22,7 @@ Below are the curves captured during the sessions:
 loss curves and log loss curves
 
 ![](assests/ROUGE_and_BELU.png)
-ROUGE1, ROUGE1, ROUGE3, BELU for the finetuned model
+ROUGE1, ROUGE1, ROUGE3, BLEU for the finetuned model
 
 ![](assests/validation_loss_with_model_on_and_off.png)
 Validation loss before and after finetuning 
